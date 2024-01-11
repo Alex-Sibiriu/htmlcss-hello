@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('Images/Sfondo.jpg');
+    position: relative;
+}
+h1 {
+    width: 100%;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 120px;
+    font-family:'Press Start 2P', 'Segoe UI', sans-serif;
+    color: yellow;
+    text-shadow: 10px 10px 0 #000,
+                -3px 3px 0 #000,
+                -3px -3px 0 #000,
+                 3px -3px 0 #000;;
+}
+p {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
